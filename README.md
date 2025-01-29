@@ -1,7 +1,7 @@
 # Campaign Wizard Revamp Roadmap
 ## Generic flow
 ```mermaid
-graph TD;
+graph LR;
     A[User Inputs Keywords] --> B[We suggest a list of categories by using Internal Category Suggester];
     B --> C{Was there an appropriate category?};
     C -- No --> D[Compliance Review];
